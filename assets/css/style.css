@@ -215,6 +215,14 @@ the website, in dark theme
     transition: 0.3s;
     z-index: var(--z-fixed);
   }
+
+  .nav__close {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1rem;
+    right: 1.25rem;
+    cursor: pointer;
+  }
 }
 
 /* Show menu */
