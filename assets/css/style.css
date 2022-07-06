@@ -253,6 +253,39 @@ the website, in dark theme
 
 /*=============== HOME ===============*/
 
+.home {
+  padding: 3.5rem 0 2rem;
+}
+
+.home__container {
+  position: relative;
+  row-gap: 2rem;
+}
+
+.home__img {
+  width: 200px;
+  justify-self: center;
+}
+
+.home__title {
+  font-size: var(--big-font-size);
+  line-height: 140%;
+  margin-bottom: var(--mb-1);
+}
+
+.home__description {
+  margin-bottom: var(--mb-2-5);
+}
+
+.home__social {
+  position: absolute;
+  top: 2rem;
+  right: -1rem;
+  display: grid;
+  justify-items: center;
+  row-gap: 3.5rem;
+}
+
 /*=============== BUTTONS ===============*/
 
 /*=============== ABOUT ===============*/
