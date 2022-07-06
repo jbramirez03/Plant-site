@@ -186,6 +186,15 @@ the website, in dark theme
   transition: 0.3s;
 }
 
+.nav__logo-icon {
+  font-size: 1.15rem;
+  color: var(--first-color);
+}
+
+.nav__logo:hover {
+  color: var(--first-color);
+}
+
 /* Show menu */
 
 /* Change background header */
