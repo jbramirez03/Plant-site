@@ -208,7 +208,7 @@ the website, in dark theme
     width: 80%;
     height: 100%;
     top: 0;
-    right: 0;
+    right: -100%;
     box-shadow: -2px 0 4px hsla(var(--hue), 24%, 15%, 0.1);
     padding: 4rem 0 0 3rem;
     border-radius: 1rem 0 0 1rem;
@@ -222,6 +222,22 @@ the website, in dark theme
     top: 1rem;
     right: 1.25rem;
     cursor: pointer;
+  }
+
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
+
+  .nav__link {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    transition: 0.3s;
+  }
+
+  .nav__link:hover {
+    color: var(--first-color);
   }
 }
 
