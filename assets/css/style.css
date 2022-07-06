@@ -434,6 +434,19 @@ the website, in dark theme
   transition: 0.3s;
 }
 
+.steps__card-title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-5);
+}
+
+.steps__card-description {
+  font-size: var(--small-font-size);
+}
+
+.steps__card:hover .steps__card-number {
+  transform: translateY(-0.25rem);
+}
+
 /*=============== PRODUCTS ===============*/
 
 /*=============== QUESTIONS ===============*/
