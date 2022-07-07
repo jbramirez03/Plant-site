@@ -655,6 +655,14 @@ the website, in dark theme
   transition: 0.3s;
 }
 
+.contact__area {
+  height: 7rem;
+}
+
+.contact__area textarea {
+  resize: none;
+}
+
 /*Input focus move up label*/
 
 /*Input focus sticky top label*/
