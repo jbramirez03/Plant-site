@@ -903,4 +903,24 @@ the website, in dark theme
 
 /* For medium devices */
 
+@media screen and (min-width: 576px) {
+  .steps__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .product__description {
+    padding: 0 4rem;
+  }
+
+  .product__container {
+    grid-template-columns: repeat(2, 170px);
+    justify-content: center;
+    column-gap: 5rem;
+  }
+
+  .footer__subscribe {
+    width: 400px;
+  }
+}
+
 /* For large devices */
