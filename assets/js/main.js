@@ -41,6 +41,35 @@ window.addEventListener('scroll', scrollHeader);
 
 /*=============== QUESTIONS ACCORDION ===============*/
 
+const accordionItems = document.querySelectorAll('.questions__item');
+
+const toggleItem = (item) => {
+    const accordionContent = item.querySelector('.questions__content');
+
+    if (item.classList.contains('accordion-open')) {
+        accordionContent.removeAttribute('style');
+        item.classList.remove('accordion-open');
+    } else {
+        accordionContent.style.height = accordionContent.scrollHeight + 'px';
+        item.classList.add('accordion-open');
+    }
+
+}
+
+accordionItems.forEach(i => {
+    const accordionHeader = i.querySelector('.questions__header');
+
+    accordionHeader.addEventListener('click', () => {
+        const openItem = document.querySelector('.accordion-open');
+        toggleItem(i)
+
+        if (openItem && openItem !== i) {
+            toggleItem(openItem)
+        }
+    });
+});
+
+
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
