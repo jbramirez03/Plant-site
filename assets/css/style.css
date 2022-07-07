@@ -743,6 +743,21 @@ the website, in dark theme
   font-size: var(--small-font-size);
 }
 
+.footer__social {
+  display: inline-flex;
+  column-gap: 0.75rem;
+}
+
+.footer__social-link {
+  font-size: 1rem;
+  color: var(--text-color);
+  transition: 0.3s;
+}
+
+.footer__social-link:hover {
+  transform: translateY(-0.25rem);
+}
+
 /*=============== SCROLL UP ===============*/
 
 /* Show Scroll Up*/
